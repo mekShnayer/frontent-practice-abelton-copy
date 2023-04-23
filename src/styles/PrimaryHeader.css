@@ -1,0 +1,43 @@
+.nav-primary-header-container {
+    border: solid;
+    display: flex;
+}
+
+.main-nav__logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-nav__logo__image {
+    display: block;
+    width: 3.75em;
+    height: 1.75em;
+}
+
+.links-ul-container {
+    /* display: flex; */
+    width: 100%;
+    border: solid;
+}
+
+.links-list-container {
+    display: flex;
+    list-style-type: none;
+    width: inherit;
+    margin: 0px;
+    margin-left: -20px;
+}
+
+.links-li {
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+/* the one with the space: note that i should fix the space to be responsive! */
+#link-margin{
+    margin-left: 220px;
+}
