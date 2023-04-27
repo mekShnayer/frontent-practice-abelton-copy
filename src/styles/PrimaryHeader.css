@@ -1,6 +1,8 @@
 .nav-primary-header-container {
-    border: solid;
     display: flex;
+    padding: 10px;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .main-nav__logo {
@@ -13,31 +15,56 @@
     display: block;
     width: 3.75em;
     height: 1.75em;
+    padding: 10px;
+}
+.no-margin-right{
+    margin-right: -200px;
 }
 
 .links-ul-container {
-    /* display: flex; */
-    width: 100%;
-    border: solid;
+    display: flex;
+    /* width: 100%; */
+    justify-items: center;
 }
 
 .links-list-container {
     display: flex;
     list-style-type: none;
-    width: inherit;
     margin: 0px;
+    width: 88vw;
     margin-left: -20px;
+    justify-content: space-between;
 }
 
 .links-li {
-    font-weight: 200;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 8px;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
     align-items: center;
-    font-size: small;
+    margin-top: 0;
+    margin-right: 16px;
 }
+
 /* the one with the space: note that i should fix the space to be responsive! */
-#link-margin{
-    margin-left: 220px;
+#link-margin {
+    /* margin-left: 160px; */
+}
+
+.flex-start {
+    display: flex;
+    /* justify-content: flex-start; */
+}
+
+.flex-end {
+    display: flex;
+    /* justify-content: flex-end;
+    padding: 0; */
+    margin-right: -40px;
+    font-size: 12px;
+}
+
+#more-button {
+    border: none;
+    background: none;
 }

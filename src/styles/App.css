@@ -1,6 +1,25 @@
-#main{
-    border: 1px solid black;
+body {
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+}
+
+#main {
+    /* border: 1px solid black; */
     /* display: flex; */
+
 
 }
 
+
+.orange {
+    color: orange;
+}
+.blue{
+    color: blue;
+}
+hr {
+    background-color: rgba(230, 229, 229, 0.369);
+    border: none;
+    padding: 1px;
+}

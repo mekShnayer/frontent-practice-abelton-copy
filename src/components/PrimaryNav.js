@@ -11,16 +11,21 @@ const PrimaryNav = () => {
             </a>
             <div className="links-ul-container">
                 <ul className="links-list-container">
-                    <li className="links-li"><a>Live</a></li>
-                    <li className="links-li"><a>Push</a></li>
-                    <li className="links-li"><a>Note</a></li>
-                    <li className="links-li"><a>Link</a></li>
-                    <li className="links-li"><a>Shop</a></li>
-                    <li className="links-li"><a>Packs</a></li>
-                    <li className="links-li"><a>Help</a></li>
-                    <li className="links-li"><a>More +</a></li>
-                    <li className="links-li" id="link-margin"><a>Try Live for free</a></li>
-                    <li className="links-li"><a>Log in or register</a></li>
+                    <div className="flex-start">
+                        <li className="links-li"><a>Live</a></li>
+                        <li className="links-li"><a>Push</a></li>
+                        <li className="links-li"><a>Note</a></li>
+                        <li className="links-li"><a>Link</a></li>
+                        <li className="links-li"><a>Shop</a></li>
+                        <li className="links-li"><a>Packs</a></li>
+                        <li className="links-li"><a>Help</a></li>
+                        <li className="links-li"><a><button id="more-button" className="orange">More +</button></a></li>
+                    </div>
+                    <div className="flex-end">
+                        <li className="links-li blue" id="link-margin"><a>Try Live for free</a></li>
+                        <li className="links-li no-margin-right"><a>Log in or register</a></li>
+
+                    </div>
                 </ul>
             </div>
         </nav>

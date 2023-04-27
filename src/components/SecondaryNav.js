@@ -1,13 +1,13 @@
 import React from "react";
-
+import '../styles/SecondaryHeader.css'
 const SecondaryNav = () => {
     return (
-        <nav>this is the secondary nav bar
-                <ul>
-                    <li><a>About</a></li>
-                    <li><a>Jobs</a></li>
-                    <li><a>Apprenticeships</a></li>
-                </ul>
+        <nav className="nav">
+            <ul className="ul">
+                <li className="li-item orange"><a>About</a></li>
+                <li className="li-item"><a>Jobs</a></li>
+                <li className="li-item"><a>Apprenticeships</a></li>
+            </ul>
         </nav>
     )
 }
